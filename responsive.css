@@ -1,0 +1,148 @@
+@media screen and (max-width: 1200px) {
+  .navBar {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .burger {
+    display: block;
+    /* top: -299%; */
+    position: absolute;
+    /* /* display: none;            */
+    /* cursor: pointer;             */
+    right: 18px;
+    top: 33px;
+  }
+  .h-nav {
+    height: 60px;
+    padding: 15px;
+    /* width: 98.75vw; */
+  }
+  .v-class {
+    opacity: 0;
+  }
+  .box1 > img {
+    width: 200px;
+    height: auto;
+  }
+  .box {
+    grid-template-columns: auto auto;
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+  .cloud1 {
+    width: 150px;
+    left: 23px;
+  }
+  .cloud2 {
+    left: 335px;
+    width: 89px;
+  }
+  .cloud3 {
+    left: 800px;
+    width: 91px;
+  }
+  .cloud {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  .slider {
+    height: 530px;
+  }
+  /* .cloud {
+    top: 1417px;
+    width: 65px;
+  } */
+}
+@media screen and (max-width: 600px) {
+  .slider {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+    /* width: 300px; */
+  }
+  .box1 > img {
+    width: 115px;
+    height: auto;
+  }
+  .box {
+    padding: 25px;
+  }
+  .innerBox > p > a {
+    font-size: 9px;
+  }
+  .innerBox {
+    margin: 0 -12px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .logo {
+    margin-top: 49px;
+  }
+  .cloud2 {
+    position: absolute;
+    left: 306px;
+    width: 74px;
+    top: 874.25px;
+  }
+  .cloud1 {
+    position: absolute;
+    left: 50px;
+    width: 90px;
+    top: 912px;
+  }
+  .cloud {
+    top: 900px;
+    width: 53px;
+  }
+  .cloud3 {
+    position: absolute;
+    width: 73px;
+    left: 11px;
+    top: 832px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1150px) {
+  .cloud {
+    position: absolute;
+    right: 0px;
+    top: 1461px;
+    width: 80px;
+  }
+  .cloud1 {
+    position: absolute;
+    left: 49px;
+    width: 106px;
+    top: 1470px;
+  }
+  .cloud2 {
+    position: absolute;
+    left: 502px;
+    width: 111px;
+    top: 1470.25px;
+  }
+  .cloud3 {
+    position: absolute;
+    width: 93px;
+    left: 272px;
+    top: 1561px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 800px) {
+  .cloud {
+    top: 1412px;
+  }
+  .cloud1 {
+    top: 1430px;
+  }
+  .cloud2 {
+    position: absolute;
+    left: 374px;
+    width: 74px;
+    top: 1400px;
+  }
+  .cloud3 {
+    top: 1370px;
+  }
+}

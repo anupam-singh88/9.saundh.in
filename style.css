@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=IBM+Plex+Sans+Hebrew&family=IBM+Plex+Sans+Thai+Looped:wght@700&family=Lateef&family=Lato:wght@100;400&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navSection > ul {
+  display: flex;
+}
+.navSection > ul > li {
+  list-style: none;
+}
+.logo {
+  width: 160px;
+}
+.navSection > ul > li > a {
+  color: black;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 12px;
+  letter-spacing: 2px;
+}
+.iconsImg {
+  width: 14px;
+  margin: -2px 6px;
+}
+.icons > ul {
+  display: flex;
+  align-items: center;
+}
+.icons > ul > li {
+  list-style: none;
+  margin: 0 6px;
+}
+.icons > ul > li > a {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 650px;
+  width: 100%;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.slide.current {
+  opacity: 1;
+}
+
+/* Backgorund Images */
+
+.slide:first-child {
+  background: url("images/slider1.jfif");
+  background-size: cover;
+}
+.slide:nth-child(2) {
+  background: url("images/slider2.jfif");
+  background-size: cover;
+}
+.slide:nth-child(3) {
+  background: url("images/slider3.jfif");
+  background-size: cover;
+}
+.slide:nth-child(4) {
+  background: url("images/slider4.jfif");
+  background-size: cover;
+}
+@media screen and (max-width: 600px) {
+  .slider {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+    /* width: 300px; */
+  }
+}
+.container1 {
+  background-color: #f7ebdf;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lateef", cursive;
+  align-items: center;
+  padding: 15px;
+  color: #205360;
+}
+.cImg {
+  width: 125px;
+}
+.container1 > h2 {
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.innerContainer1 {
+  display: flex;
+}
+.box1 {
+  margin: 30px 30px;
+  font-size: 13px;
+}
+.box1 > img {
+  height: 450px;
+  margin: 7px 0;
+}
+.container2 {
+  /* background: url(images/bg.png);
+  height: 100vh; */
+  background-color: #f7ebdf;
+}
+.container2 > h2 {
+  text-align: center;
+  font-family: "Lateef", cursive;
+  color: #205360;
+  font-size: 55px;
+  letter-spacing: 7px;
+  font-weight: 400;
+}
+.container4 {
+  background: url(images/bb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  /* height: 35vh; */
+  /* width: 80vw; */
+  /* width: 80vw; */
+  border: 1px solid white;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: space-around;
+  padding: 70px 25px;
+  color: white;
+  background: rgb(48 54 49 / 30%);
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+.innerBox {
+  margin: 0 10px;
+}
+.innerBox > p {
+  margin: 10px 0;
+}
+.innerBox > p > a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 400;
+}
+.inp {
+  border: none;
+  background-color: transparent;
+  color: white;
+  padding: 8px 0;
+  border-bottom: 2px solid white;
+  margin: 11px 0;
+  width: 255px;
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+.btn {
+  background: transparent;
+  color: white;
+  border: solid 2px white;
+  padding: 7px;
+  letter-spacing: 4px;
+  border-radius: 5px;
+  font-size: 9px;
+}
+.socialIcon {
+  display: flex;
+  align-items: center;
+}
+.fb {
+  width: 30px;
+  margin: 0 5px;
+}
+.footer {
+  background-color: #11363b;
+  color: white;
+  text-align: center;
+  padding: 24px;
+  letter-spacing: 2px;
+}
+.cloud {
+  position: absolute;
+  right: 0;
+  top: 1600px;
+}
+.aa {
+  transform: translate(0px, 20px);
+  transition: all 0.5s ease-in-out;
+}
+.cloud1 {
+  position: absolute;
+  left: 49px;
+  width: 187px;
+  top: 1619px;
+}
+.cloud2 {
+  position: absolute;
+  left: 460px;
+  width: 166px;
+  top: 1719.25px;
+}
+.cloud3 {
+  position: absolute;
+  width: 171px;
+  left: 950px;
+  top: 1581px;
+}
+.bb {
+  transform: translate(0, 15px);
+  transition: all 0.5s ease-in-out;
+}
+.burger {
+  position: absolute;
+  display: none;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+}
+.line {
+  width: 33px;
+  background-color: rgb(8, 8, 8);
+  margin: 3px 3px;
+  height: 4px;
+}
+.allItems {
+  display: flex;
+  align-items: center;
+}
+.mainImg {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
